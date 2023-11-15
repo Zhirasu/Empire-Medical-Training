@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+ul,ol {
+  list-style: none;
+  margin: 0 !important;
+}
+
+nav {
+  background-color: #313131;
+  font-size: .8rem;
+}
+
+p,.small{
+  font-size: .9rem !important;
+}
+
+.small-l{
+  font-size: .8rem !important;
+}
+
+
+
+.nav-2 {
+  background-color: #171717 !important;
+  font-size: .9rem !important;
+  z-index: 100 !important;
+}
+
+.dropdown-item:hover{
+  color:#171717 !important;
+
+}
+
+.icon-hover:hover{
+ color:rgb(13,202, 240, 1) !important;
+ cursor: pointer;
+
+}
+
+.item-active{
+  opacity: 0;
+  width: 0;
+  height: 5px;
+  border-bottom: 7px solid #ffff;
+  position: absolute;
+  top:55px; 
+  left:0;
+  bottom: 0;
+  right: 0;
+  transition: ease-in-out 1.4s all;
+}
+
+.nav-item:hover .item-active{
+  opacity: 1;
+  width: 100%;
+  transition: ease-in-out 1.4s all;
+  
+}
+
+nav:nth-child(1){
+  z-index: 300 !important;
+}
+.ver{
+  z-index: 60 !important;
+}
+
+.ball{
+  width: 13px !important;
+  height: 13px !important;
+}
+
+svg,img {
+  max-width: 100% !important;
+  object-fit: cover !important;
+  
+}
+
+.img{
+  width: 600px !important;
+  height: 300px !important;
+  border-radius: 40px !important;
+}
+
+.img_social{
+  width: 240px !important;
+  height: 380px !important;
+  border-radius: 40px !important;
+  filter: brightness(0.4);
+  
+}
+
+.rounded_content{   
+  border-radius: 0 15px 15px 0;
+  
+}
+
+.rounded_content-2{   
+  border-radius: 15px 0  0 15px;
+ 
+}
+
+.height-m{
+height: 15rem !important;
+
+}
+
+.height-img-m{
+  height: 14rem !important;
+  
+  }
+
+.name_acount{
+  white-space:nowrap;
+  top:330px !important;
+  left: 0 !important;
+  right: 0 !important;
+  font-size: 0.6rem !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #ffff !important;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(6);
+}
+
+table,.content-min{
+  width: 90%;
+}
+
+td {
+  padding: 10px 15px;
+}
+
+.white-space{
+  white-space:nowrap;
+}
+
+.text-small{
+  font-size: .75rem !important;
+}
+
+.height-small{
+  height:50px;
+}
+
+.dark-hover:hover{
+  color: rgba(226, 227, 229, 1) !important;
+  background:rgb(23, 23, 23, 1) !important;
+}
+
+.text_justify-width{
+  text-align: justify !important;
+  }
+
+section:nth-child(1){
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(230, 234, 242, 0.75)), url(img/mujer-inyectandose-botox-acido-hialuronico-scaled.jpg) no-repeat center center fixed;
+  background-size: cover;
+  object-fit: cover;
+  width: 100vw !important;
+}
+
+section:nth-child(2) {
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.85));
+  background-size: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width:300px){
+  div.col-xl-2{
+    width: 100%;
+  }
+
+  .height-m{
+    height: 14rem !important;
+    
+    }
+}
+
+@media screen and (max-width:600px){
+  div.border_none{
+    border: none !important;
+  }
+  nav.bg-dark {
+    display: none;
+  }
+
+  .height-m{
+    height: 13rem !important;
+    
+    }
+    
+}
+
+@media screen and (max-width:976px) {
+
+  body{
+    text-align: center !important;
+    font-size: .6rem;
+  }
+
+  section.section-none,.d_none{
+    display: none !important;
+  }
+
+  section:nth-child(1){
+    flex-direction: column;
+  }
+
+  .height-m{
+    height: 20rem !important;
+    
+    }
+
+  section:nth-child(1) div:nth-child(2){
+    justify-content: center !important;
+    
+  }
+
+  button {
+    font-size: .7rem !important;
+  }
+
+  img {
+    max-width: 90%;
+  }
+
+  section,
+  section div {
+    padding: 0 !important;
+  }
+
+  
+  .text_justify{
+    text-align: justify !important;
+    }
+
+    b.white-space{
+      white-space: normal !important;
+    }
+
+    .rounded_content{   
+      border-radius: 0  0 15px 15px !important;
+    }
+    
+    .rounded_content-2{   
+      border-radius: 15px 15px 0  0  !important;
+    }
+
+    .item-active{
+      display: none;
+    }
+
+    .dropdown-menu{
+      width: 100vw !important;
+      text-align: center;
+      margin-left: -15px !important;
+      
+    }
+
+    .container-fluid{
+      padding-left: 0 !important;
+    }
+
+    ul.dropdown-menu{
+      text-align: center;
+    }
+}
