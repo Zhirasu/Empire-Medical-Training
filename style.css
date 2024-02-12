@@ -190,7 +190,7 @@ section:nth-child(2) {
     }
 }
 
-@media screen and (max-width:663px){
+@media screen and (max-width:770px){
   div.border_none{
     border: none !important;
   }
