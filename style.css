@@ -190,7 +190,7 @@ section:nth-child(2) {
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:663px){
   div.border_none{
     border: none !important;
   }
@@ -205,6 +205,16 @@ section:nth-child(2) {
     
 }
 
+@media screen and (max-width:1200px){
+  
+  section.section-none,.d_none{
+    display: none !important;
+  }
+
+  
+    
+}
+
 @media screen and (max-width:976px) {
 
   body{
@@ -212,9 +222,7 @@ section:nth-child(2) {
     font-size: .6rem;
   }
 
-  section.section-none,.d_none{
-    display: none !important;
-  }
+ 
 
   section:nth-child(1){
     flex-direction: column;
